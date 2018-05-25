@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="Retangle-Build" default="main" basedir=".">
-  <property environment="env">
+  <property environment="env"/>
 
   <!-- Set variables which can later be used. -->
   <!-- The value of a property is accessed via ${} -->
