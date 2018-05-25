@@ -36,7 +36,7 @@
 
   <!-- Creates the deployable jar file -->
   <target name="jar" depends="compile">
-    <jar destfile="${dist.dir}"\rectangle.jar" basedir="${build.dir}" />
+    <jar destfile="${dist.dir}\rectangle.jar" basedir="${build.dir}">
       <manifiest>
         <attribute name="Main-Class" value="Rectangulator" />
       </manifiest>
