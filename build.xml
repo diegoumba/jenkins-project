@@ -18,7 +18,7 @@
     <delete dir="${build.dir}">
     <delete dir="${docs.dir}">
     <delete dir="${dist.dir}">
-
+  </target>
   <!-- Creates the build, docs and dist directory -->
   <target name="makedir">
     <mkdir dir="${build.dir}" />
