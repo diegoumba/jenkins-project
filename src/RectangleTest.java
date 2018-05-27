@@ -1,4 +1,4 @@
-import org.Junit.Test;
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class RectangleTest {
@@ -21,6 +21,6 @@ public class RectangleTest {
 
   @Test
   public void testWidth() {
-    assertEquals(myRectangle.width, 5);
+    assertEquals(myRectangle.width, 6);
   }
 }
